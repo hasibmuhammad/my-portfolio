@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+p {
+  color: dimgray;
+}
+
+a {
+  text-decoration: none;
+  color: #db2a8b;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 0;
+  background-image: url("./images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.introduction {
+  width: 50%;
+  padding: 0 0 0 12rem;
+}
+
+.introduction p {
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.name {
+  /* color: #f342a4; */
+  color: #ee148c;
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.photo {
+  width: 50%;
+}
+
+.photo img {
+  width: 75%;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2.5rem;
+  background: linear-gradient(45deg, #db2a8b, #ec6eb3);
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.biography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.biography__image {
+  width: 50%;
+  padding: 8rem 0 8rem 8rem;
+}
+
+.biography__content {
+  width: 50%;
+  padding-right: 8rem;
+}
+
+.biography__content p {
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.biography__image img {
+  width: 75%;
+}
+
+.latest__work {
+  background-image: url("./images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 8rem;
+}
+
+.latest__work h1 {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.works img {
+  width: 20%;
+  padding-right: 2rem;
+}
+
+.works img:nth-child(3) {
+  padding-right: 0;
+}
+
+.feedback {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.feedback h1 {
+  margin-bottom: 2rem;
+}
+
+.feedback__content {
+  background-image: url("./images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  padding-top: 4rem;
+}
+
+.feedback__content .review {
+  padding-top: 2rem;
+}
+
+.feedback__content .box {
+  width: 800px;
+  height: 150px;
+  margin: 8rem auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(180deg, #fa078d, #ec6eb3);
+  color: #fff;
+  border-radius: 10px;
+  line-height: 2;
+}
+
+.box h5 {
+  font-weight: 300;
+}
+
+footer p {
+  text-align: center;
+  padding: 2rem 0;
+}
